@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E92B6B6D1D863A7A00051F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B6B6C1D863A7A00051F42 /* main.m */; };
 		E92B6B701D863A7A00051F42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B6B6F1D863A7A00051F42 /* AppDelegate.m */; };
-		E92B6B731D863A7A00051F42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B6B721D863A7A00051F42 /* ViewController.m */; };
+		E92B6B731D863A7A00051F42 /* ConversionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B6B721D863A7A00051F42 /* ConversionViewController.m */; };
 		E92B6B761D863A7A00051F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92B6B741D863A7A00051F42 /* Main.storyboard */; };
 		E92B6B781D863A7A00051F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92B6B771D863A7A00051F42 /* Assets.xcassets */; };
 		E92B6B7B1D863A7A00051F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92B6B791D863A7A00051F42 /* LaunchScreen.storyboard */; };
@@ -39,8 +39,8 @@
 		E92B6B6C1D863A7A00051F42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E92B6B6E1D863A7A00051F42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E92B6B6F1D863A7A00051F42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E92B6B711D863A7A00051F42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E92B6B721D863A7A00051F42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E92B6B711D863A7A00051F42 /* ConversionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversionViewController.h; sourceTree = "<group>"; };
+		E92B6B721D863A7A00051F42 /* ConversionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversionViewController.m; sourceTree = "<group>"; };
 		E92B6B751D863A7A00051F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E92B6B771D863A7A00051F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92B6B7A1D863A7A00051F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			children = (
 				E92B6B6E1D863A7A00051F42 /* AppDelegate.h */,
 				E92B6B6F1D863A7A00051F42 /* AppDelegate.m */,
-				E92B6B711D863A7A00051F42 /* ViewController.h */,
-				E92B6B721D863A7A00051F42 /* ViewController.m */,
+				E92B6B711D863A7A00051F42 /* ConversionViewController.h */,
+				E92B6B721D863A7A00051F42 /* ConversionViewController.m */,
 				E92B6B741D863A7A00051F42 /* Main.storyboard */,
 				E92B6B771D863A7A00051F42 /* Assets.xcassets */,
 				E92B6B791D863A7A00051F42 /* LaunchScreen.storyboard */,
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E92B6B731D863A7A00051F42 /* ViewController.m in Sources */,
+				E92B6B731D863A7A00051F42 /* ConversionViewController.m in Sources */,
 				E92B6B701D863A7A00051F42 /* AppDelegate.m in Sources */,
 				E92B6B6D1D863A7A00051F42 /* main.m in Sources */,
 			);
@@ -505,6 +505,7 @@
 				E92B6B971D863A7A00051F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E92B6B981D863A7A00051F42 /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				E92B6B9A1D863A7A00051F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E92B6B9B1D863A7A00051F42 /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				E92B6B9D1D863A7A00051F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
