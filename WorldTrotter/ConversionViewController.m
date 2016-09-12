@@ -70,5 +70,12 @@ shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)strin
     }
 }
 
+// MARK: - View Lifecycle
+
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    NSLog(@"ConversionViewController loaded its view");
+}
+
 
 @end

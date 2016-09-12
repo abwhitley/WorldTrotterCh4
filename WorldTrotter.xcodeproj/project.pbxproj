@@ -15,6 +15,8 @@
 		E92B6B7B1D863A7A00051F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92B6B791D863A7A00051F42 /* LaunchScreen.storyboard */; };
 		E92B6B861D863A7A00051F42 /* WorldTrotterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B6B851D863A7A00051F42 /* WorldTrotterTests.m */; };
 		E92B6B911D863A7A00051F42 /* WorldTrotterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B6B901D863A7A00051F42 /* WorldTrotterUITests.m */; };
+		E94CF5C31D872CD000047C48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94CF5C21D872CD000047C48 /* MapKit.framework */; };
+		E94CF5C61D8739E600047C48 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94CF5C51D8739E600047C48 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		E92B6B8C1D863A7A00051F42 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92B6B901D863A7A00051F42 /* WorldTrotterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldTrotterUITests.m; sourceTree = "<group>"; };
 		E92B6B921D863A7A00051F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94CF5C21D872CD000047C48 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E94CF5C41D8739E600047C48 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		E94CF5C51D8739E600047C48 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94CF5C31D872CD000047C48 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				E92B6B841D863A7A00051F42 /* WorldTrotterTests */,
 				E92B6B8F1D863A7A00051F42 /* WorldTrotterUITests */,
 				E92B6B691D863A7A00051F42 /* Products */,
+				E94CF5C11D872CD000047C48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +113,8 @@
 				E92B6B711D863A7A00051F42 /* ConversionViewController.h */,
 				E92B6B721D863A7A00051F42 /* ConversionViewController.m */,
 				E92B6B741D863A7A00051F42 /* Main.storyboard */,
+				E94CF5C41D8739E600047C48 /* MapViewController.h */,
+				E94CF5C51D8739E600047C48 /* MapViewController.m */,
 				E92B6B771D863A7A00051F42 /* Assets.xcassets */,
 				E92B6B791D863A7A00051F42 /* LaunchScreen.storyboard */,
 				E92B6B7C1D863A7A00051F42 /* Info.plist */,
@@ -138,6 +147,14 @@
 				E92B6B921D863A7A00051F42 /* Info.plist */,
 			);
 			path = WorldTrotterUITests;
+			sourceTree = "<group>";
+		};
+		E94CF5C11D872CD000047C48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E94CF5C21D872CD000047C48 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +293,7 @@
 				E92B6B731D863A7A00051F42 /* ConversionViewController.m in Sources */,
 				E92B6B701D863A7A00051F42 /* AppDelegate.m in Sources */,
 				E92B6B6D1D863A7A00051F42 /* main.m in Sources */,
+				E94CF5C61D8739E600047C48 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
