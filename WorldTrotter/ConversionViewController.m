@@ -74,7 +74,7 @@ shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)strin
 
 -(void)viewDidLoad{
     [super viewDidLoad];
-    NSLog(@"ConversionViewController loaded its view");
+    NSLog(@"MapViewController loaded its view");
 }
 
 
