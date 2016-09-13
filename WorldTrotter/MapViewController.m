@@ -23,7 +23,12 @@
     self.view = self.mapView;
     
     //Add a segmented control to the view
-    NSArray *segItems = @[@"Standard",@"Hybrid",@"Satallite"];
+
+    NSString *standardString = NSLocalizedString(@"Standard", @"Standard map view");
+    NSString *hybridString = NSLocalizedString(@"Hybrid", @"Hybrid map view");
+    NSString *satalliteString = NSLocalizedString(@"Satallite", @"Satallite map view");
+    NSArray *segItems = @[standardString,hybridString,satalliteString];
+    
     UISegmentedControl *segControl = [[UISegmentedControl alloc] initWithItems:segItems];
     segControl.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.5];
     segControl.selectedSegmentIndex = 0;
